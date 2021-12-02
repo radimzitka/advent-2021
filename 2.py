@@ -20,6 +20,6 @@ for line in lines:
         depth_2 += int(line[1]) * aim
 
 print("Part one:", horizontal * depth)
-print("Part one:", horizontal * depth_2)
+print("Part two:", horizontal * depth_2)
 
 
