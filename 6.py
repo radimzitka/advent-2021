@@ -1,27 +1,25 @@
 from collections import deque
 
 with open('6.input') as file:
-  lines = file.readlines()
-  times = lines[0].rstrip().split(',')
+  times = file.readlines()[0].rstrip().split(',')
 
 lanternfish_ages = 9*[0]
 
 for i in range(len(times)):
-    times[i] = int(times[i])
-    lanternfish_ages[times[i]] += 1
+    lanternfish_ages[int(times[i])] += 1
 
 # Rotate array
 lanternfish_ages = deque(lanternfish_ages)
 
-one = True
+first_task = True
 for i in range(257):
     if(i == 80 or i == 256):
         counter = 0
         for age in lanternfish_ages:
             counter += age
-        if(one):
+        if(first_task):
             print("Part one:", counter)
-            one = False
+            first_task = False
         else:
             print("Part two:", counter)
             
