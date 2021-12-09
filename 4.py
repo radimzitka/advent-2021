@@ -1,6 +1,5 @@
 with open('4.input') as file:
-  lines = file.readlines()
-  lines = [line.rstrip().split(' ') for line in lines]
+  lines = [line.rstrip().split(' ') for line in file.readlines()]
 
 def is_row_winner(winner_numbers, board_line):
     for number in board_line:

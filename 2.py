@@ -1,6 +1,5 @@
 with open('2.input') as file:
-  lines = file.readlines()
-  lines = [line.rstrip().split(' ') for line in lines]
+  lines = [line.rstrip().split(' ') for line in file.readlines()]
 
 horizontal = 0
 depth = 0

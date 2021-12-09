@@ -1,6 +1,5 @@
 with open('8.input') as file:
-  lines = file.readlines()
-  lines = [line.rstrip().split(' ') for line in lines]
+  lines = [line.rstrip().split(' ') for line in file.readlines()]
 
 # 1. eba dacgefb deacb gabfde ecgadb cbdef cage gcbad afbdcg ae | gdfeba ae dfbec agce 
 for i in range(len(lines)):
