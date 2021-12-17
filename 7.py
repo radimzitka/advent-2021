@@ -1,4 +1,4 @@
-with open('7.input') as file:
+with open('inputs/7.input') as file:
   lines = file.readlines()
   lines = lines[0].rstrip().split(',')
 

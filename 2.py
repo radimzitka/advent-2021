@@ -1,4 +1,4 @@
-with open('2.input') as file:
+with open('inputs/2.input') as file:
   lines = [line.rstrip().split(' ') for line in file.readlines()]
 
 horizontal = 0

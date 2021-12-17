@@ -1,4 +1,4 @@
-with open('13.input') as file:
+with open('inputs/13.input') as file:
   lines = [line.rstrip() for line in file.readlines()]
 
 hashtags = []

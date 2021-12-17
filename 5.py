@@ -1,4 +1,4 @@
-with open('5.input') as file:
+with open('inputs/5.input') as file:
   lines = [line.rstrip().split(' -> ') for line in file.readlines()]
 
 coord = ""

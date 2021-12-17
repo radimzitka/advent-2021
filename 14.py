@@ -1,4 +1,4 @@
-with open('14.input') as file:
+with open('inputs/14.input') as file:
   lines = [line.rstrip() for line in file.readlines()]
 
 # Get template

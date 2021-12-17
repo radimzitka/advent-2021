@@ -1,4 +1,4 @@
-with open('8.input') as file:
+with open('inputs/8.input') as file:
   lines = [line.rstrip().split(' ') for line in file.readlines()]
 
 # 1. eba dacgefb deacb gabfde ecgadb cbdef cage gcbad afbdcg ae | gdfeba ae dfbec agce 

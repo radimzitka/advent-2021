@@ -1,6 +1,6 @@
 from collections import deque
 
-with open('6.input') as file:
+with open('inputs/6.input') as file:
   times = file.readlines()[0].rstrip().split(',')
 
 lanternfish_ages = 9*[0]

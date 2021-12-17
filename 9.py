@@ -1,4 +1,4 @@
-with open('9.input') as file:
+with open('inputs/9.input') as file:
   lines = [line.rstrip() for line in file.readlines()]
 
 # Count points which are not '9'

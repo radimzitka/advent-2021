@@ -1,4 +1,4 @@
-with open('12.input') as file:
+with open('inputs/12.input') as file:
   rules = [line.rstrip().split('-') for line in file.readlines()]
 
 def two_lower(path, rule):

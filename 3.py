@@ -1,4 +1,4 @@
-with open('3.input') as file:
+with open('inputs/3.input') as file:
   lines = [line.rstrip() for line in file.readlines()]
 
 lines_second = lines[:]

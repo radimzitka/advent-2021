@@ -1,4 +1,4 @@
-with open('1.input') as file:
+with open('inputs/1.input') as file:
   lines = [int(line.rstrip()) for line in file.readlines()]
 
 prev_sum = lines[0]

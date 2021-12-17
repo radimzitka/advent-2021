@@ -1,4 +1,4 @@
-with open('11.input') as file:
+with open('inputs/11.input') as file:
   lines = [line.rstrip() for line in file.readlines()]
 
 # Increases all numbers in octopuses
